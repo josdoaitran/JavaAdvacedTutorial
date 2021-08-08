@@ -21,6 +21,7 @@ public class MainOverRiding {
     static class Tiger extends  Animal{
          public String color = "white";
 
+         @Override
          void eat(){
              System.out.println("Tiger eats meat");
          }
